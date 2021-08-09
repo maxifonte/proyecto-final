@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="EstiloPagina.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+       
+        @media only screen and (max-width:800px){
+      
+      .menuHeader {
+        color: rgb(24,34,57);
+        font-family:'Benne', serif;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+      }
+                  
+      #grillaHome{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 70px 200px 470px 500px;
+        grid-template-areas: "header"
+                             "nav"
+                             "main"
+                             "footer";
+     }
+    
+     #grillaQuienesSomos{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 70px 200px 1200px 500px;
+        grid-template-areas: "header"
+                             "nav"
+                             "main"
+                             "footer";
+     }
+    
+     #grillaExpertise{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 70px 200px 1150px 500px;
+        grid-template-areas: "header"
+                             "nav"
+                             "main"
+                             "footer";
+     }
+    
+     #grillaPpaa{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 70px 200px 1250px 500px;
+        grid-template-areas: "header"
+                             "nav"
+                             "main"
+                             "footer";
+    }
+    
+     #grillaContacto{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 70px 200px 700px 500px;
+        grid-template-areas: "header"
+                             "nav"
+                             "main"
+                             "footer";
+     }
+     
+      .menuFooter{
+        color: rgb(24,34,57);
+        font-family:'Benne', serif;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+     }
+    }
+        </style>
+    <title>LF | ABOGADOS</title>
+</head>
+ <body>
+  <div id="grillaContacto">
+    <header> <!--INICIO ENCABEZADO-->
+        <a href="INDEX.html" title="Home"><img src="LogoHeader.png" alt="Logo Estudio" id="logoHeader"/></a>
+    </header> <!-- FIN ENCABEZADO-->
+    <nav> <!--INICIO NAV-->
+        <ul class="menuHeader">
+            <li>
+                <a href="INDEX.html">HOME</a>
+                </li>
+            <li>
+                <a href="QUIENES SOMOS.html">QUIENES SOMOS</a>
+               </li>
+            <li>
+                <a href="EXPERTISE.html">EXPERTISE</a>
+               </li>
+            <li>
+               <a href="PPAA LEGALES.html">PRIMEROS AUXILIOS LEGALES</a> 
+               </li>
+            <li>
+                <a href="CONTACTO.html">CONTACTO</a>
+               </li>
+        </ul>
+    </nav> <!--FIN NAV-->
+ </header> <!-- FIN ENCABEZADO-->
+ <main> <!--INICIO MAIN-->
+     <h2 class="tituloContacto" data-aos="fade-up" data-aos-delay="120"> CONTACTO </h2>
+     <form class="formularioContacto" data-aos="fade-up" data-aos-delay="120">
+        <form action="">
+        <form method="">
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <br>
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" id="email" name="email">
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <br>
+            <input type="text" id="telefono" name="telefono">
+            <br>
+        <h4>¿Cómo desea que nos contactemos?</h4>
+        <select name="contacto">
+            <option value="tel">Llamada telefónica</option>
+            <option value="wts">WhatsApp</option>
+            <option value="email">Email</option>   
+        </select>
+        <h4>Realice su consulta</h4>
+            <textarea rows="15" cols="55"> </textarea> 
+            <br>
+            <input type="reset" value="Limpiar Formulario">
+            <input type="submit" value="Enviar Formulario"> 
+            <br>
+            <br>
+            <input type="checkbox" id="consentimiento" name="consentimiento">
+            <label for="consentimiento">Acepto los <strong>Términos de Privacidad</strong> y <strong>Protección de Datos Personales</strong></label> 
+     </form>        
+ </main>  <!--FIN MAIN-->
+ <footer class="footerHome" data-aos="fade-up" data-aos-delay="120"> <!--INICIO PIE-->
+    <ul class="menuFooter">
+        <li>
+            <a href="INDEX.html">HOME</a>
+            </li>
+        <li>
+            <a href="QUIENES SOMOS.html">QUIENES SOMOS</a>
+           </li>
+        <li>
+            <a href="EXPERTISE.html">EXPERTISE</a>
+           </li>
+        <li>
+           <a href="PPAA LEGALES.html">PRIMEROS AUXILIOS LEGALES</a> 
+           </li>
+        <li>
+            <a href="CONTACTO.html">CONTACTO</a>
+           </li>
+    </ul>
+    <br>
+    <div class="logosRedesSociales">
+    <a href="https://es-la.facebook.com" target="_blank" title="facebook"><img src="logoFacebook.png" style="width:50px; height:50px;" alt="facebookLogo" id="facebookLogo"/></a>
+    <a href="https://twitter.com " target="_blank" title="twitter"><img src="logoTwitter.png" style="width:50px; height:50px;" alt="twitterLogo" id="twitterLogo"/></a>
+    <a href="https://www.instagram.com" target="_blank" title="instagram"><img src="logoInstagram.png" alt="instagramLogo" style="width:50px; height:50px;" id="instagramLogo"/></a>
+    </div>
+</footer> <!--FIN PIE-->
+  </div>
+ </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
