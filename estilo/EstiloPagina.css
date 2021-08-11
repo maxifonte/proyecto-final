@@ -1,0 +1,260 @@
+#grillaHome{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 70px 700px 130px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer";
+}
+
+#grillaQuienesSomos{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 70px 1200px 130px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer";
+}
+
+#grillaExpertise{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 70px 1150px 130px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer";
+}
+
+#grillaPpaa{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 70px 1250px 130px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer";
+}
+
+#grillaContacto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 70px 700px 130px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer";
+}
+
+header{
+    grid-area: header;
+    
+}
+
+nav{
+    grid-area: nav;
+    box-shadow: 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+
+}
+
+main{
+    grid-area: main;
+    
+}
+
+footer{
+    grid-area: footer;
+    box-shadow: 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.menuHeader {
+    color: rgb(24,34,57);
+    font-family:'Benne', serif;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+p{
+    color: rgb(44,52,76);
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+a{
+    color: rgb(24,34,57);
+    text-decoration: none;
+    transition: background-color.7s;
+}
+
+.tituloHome {
+    color: rgb(24,34,57);
+}
+
+.mainHome{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    justify-content:right;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.mainQuienesSomos{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    justify-content:right;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.mainExpertise{
+    padding-top: 50px;
+    padding-left: 10px;
+
+}
+
+.mainPpaa{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.mainContacto{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.tituloQuienesSomos {
+    color: rgb(24,34,57);
+}
+
+.tituloAbogado1{
+    color: rgb(24,34,57);
+}
+
+.tituloAbogado2{
+    color: rgb(24,34,57);
+}
+
+.parrafoAbogado1{
+    color: rgb(24,34,57);
+    text-align: justify;
+}
+
+.parrafoAbogado2{
+    color: rgb(24,34,57);
+    text-align: justify;
+}
+
+.tituloExpertise{
+    color: rgb(24,34,57);
+    text-align: center;
+}
+
+.primerParrafoExpertise{
+    color: rgb(24,34,57);
+    text-align: center;
+}
+
+.tercerParrafoExpertise{
+    display: flex;
+    color:  rgb(24,34,57);
+    flex-direction: row-reverse;
+}
+
+.subtituloExpertise1{ 
+    color: rgb(24,34,57);
+    text-align: justify;
+}
+
+.subtituloExpertise2{
+    color: rgb(24,34,57);
+    text-align: right;
+}
+
+.segundoParrafoExpertise{
+    color: rgb(24,34,57);
+    text-align: justify;
+}
+
+.tituloPpaaLegales{
+    color: rgb(24,34,57);
+    text-align: center
+}
+
+
+.parrafoPrimerosAuxiliosLegales{
+    color: rgb(24,34,57);
+    text-align: center
+}
+
+.subtitulo1PrimerosAuxiliosLegales{
+    color: rgb(24,34,57);
+}
+
+.subtitulo2PrimerosAuxiliosLegales{
+    color: rgb(24,34,57);
+    text-align: right;
+}
+
+.subparrafo2PrimerosAuxiliosLegales{
+    color: rgb(24,34,57);
+    text-align: right;
+}
+
+.subtitulo3PrimerosAuxiliosLegales{
+    color: rgb(24,34,57);
+}
+
+.tituloContacto{
+    color: rgb(24,34,57);
+}
+
+.formularioContacto{
+    color: rgb(24,34,57);
+}
+
+input{
+    transition: all 0.1s;       
+ }
+
+input:focus{
+    width: 200px;
+    font-size: 24px;
+ }
+
+.footerHome{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30%;
+
+}
+
+.menuFooter{
+    color: rgb(24,34,57);
+    font-family:'Benne', serif;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logosRedesSociales{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 100px;
+}
