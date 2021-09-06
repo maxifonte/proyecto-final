@@ -1,0 +1,401 @@
+#grillaHome{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 60px 1200px 130px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer";
+ .tituloHome{
+    color: rgb(24,34,57);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    padding: 120px;
+                    }
+ .mainHome{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    justify-content:end;
+    font-family: 'Montserrat', sans-serif;
+                    }
+ 
+ .footerHome{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30%;
+                           
+                    }
+                        }
+
+#grillaQuienesSomos{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 60px 3300px 140px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer";
+ .mainQuienesSomos{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    justify-content:right;
+                    
+                    }
+ .tituloQuienesSomos{
+    color: rgb(24,34,57);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding: 120px;
+    
+
+                    }
+ .abogado1{
+     background-color: rgb(24,34,57);
+     color: white;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 800;
+     font-size: 30px;
+     padding: 120px;
+     margin: 50px;
+
+ }
+ 
+ .fotoAbogado1{
+    padding: 60px;
+    
+ }
+
+ .abogado2{
+    background-color: rgb(24,34,57);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 120px;
+    margin: 50px;
+ }
+
+ .fotoAbogado2{
+    padding: 120px;
+   
+ }
+                         
+                        }
+
+
+#grillaExpertise{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 60px 1900px 140px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer";
+                  
+ .tituloExpertise{
+    color: rgb(24,34,57);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 120px;
+    }
+
+ .primerParrafoExpertise{
+        color: rgb(24,34,57);
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        padding-bottom: 120px;
+        
+        
+    }
+    
+ .segundoParrafoExpertise{
+    background-color: rgb(24,34,57);
+    width: 500px;
+    height: 190px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 70px;
+    margin-left: 300px;
+    text-align: center;
+
+    }
+
+ .tercerParrafoExpertise{
+    background-color: grey;
+    width: 500px;
+    height: 190px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 70px;
+    margin: 20px;
+    text-align: center;    
+
+    }
+
+ .cuartoParrafoExpertise{
+    background-color: rgb(24,34,57);
+    width: 500px;
+    height: 190px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 70px;
+    margin-left: 500px;
+    text-align: center;
+
+    }
+    
+ .subtituloExpertise1{ 
+        color: rgb(24,34,57);
+        text-align: justify;
+    }
+    
+ .subtituloExpertise2{
+        color: rgb(24,34,57);
+        text-align: right;
+    }
+                     
+                        }
+
+#grillaPpaa{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 60px 2000px 140px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer";
+
+
+ .tituloPpaaLegales{
+    color: rgb(24,34,57);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 120px;
+                        }
+                        
+                       
+ .parrafoPrimerosAuxiliosLegales{
+    color: rgb(24,34,57);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 40px;
+                        }
+                        
+ .subtitulo1PrimerosAuxiliosLegales{
+    background-color: rgb(24,34,57);
+    width: 530px;
+    height: 290px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    padding: 90px;
+    margin: 20px;
+                        }
+                        
+ .subtitulo2PrimerosAuxiliosLegales{
+    background-color: grey;
+    width: 500px;
+    height: 150px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    padding: 90px;
+    margin-left: 600px;
+   
+                            }
+                        
+                         
+ .subtitulo3PrimerosAuxiliosLegales{
+    background-color: rgb(182, 114, 12);
+    width: 300px;
+    height: 190px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    padding: 70px;
+    margin: 20px;
+                        
+    a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        transition: background-color.7s;
+                                }    
+}
+
+ 
+}
+
+#grillaContacto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 60px 1500px 140px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer";
+ .tituloContacto{
+    color: rgb(24,34,57);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 120px;
+                        }
+                        
+ .formularioContacto{
+    background-color: rgb(24,34,57);
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    width: 600px;
+    height: 750px;
+    padding: 120px;
+    margin-left: 65px;
+                        }
+                        
+ input{
+    transition: all 0.1s;       
+                         }
+                        
+ input:focus{
+    width: 200px;
+    font-size: 24px;
+                         }
+
+ .desplegableContacto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(24,34,57);
+    font-weight: 800;
+
+ }
+
+ .botonesFormularioContacto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(24,34,57);
+    font-weight: 800;
+
+ }
+
+}
+
+header{
+    grid-area: header;
+    
+}
+
+nav{
+    grid-area: nav;
+    box-shadow: 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+
+}
+
+main{
+    grid-area: main;
+    
+}
+
+footer{
+    grid-area: footer;
+    box-shadow: 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.menuHeader {
+    color: rgb(24,34,57);
+    font-family:'Benne', serif;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+p{
+    color: rgb(44,52,76);
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    opacity: 0.4;
+}
+
+a{
+    color: rgb(24,34,57);
+    text-decoration: none;
+    transition: background-color.7s;
+}
+}
+
+.menuFooter{
+    color: rgb(24,34,57);
+    font-family:'Benne', serif;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+a:hover{
+    color: rgb(0, 0, 0);
+    opacity: 0.4;
+    }
+    
+a{
+    color: rgb(24,34,57);
+    text-decoration: none;
+    transition: background-color.7s;
+    }    
+
+}
+
+.logosRedesSociales{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 45px;
+
+a:hover{
+    color: rgb(0, 0, 0);
+    opacity: 0.4;
+    }
+}
+
+.error404{
+    color: rgb(24,34,57);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+}

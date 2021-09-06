@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="estilo/EstiloPagina.css">
+    <meta name="description" content="Estudio juridico LF ABOGADOS. Abogados especializados en derecho a la salud, amparos contra obras sociales y medicina prepaga.">
+    <meta name="keyword" content="estudio juridico, abogado, problema legal, discapacidad, salud, obra social, prepaga, prestacion medica, amparo, carta documento">
+    <link rel="Stylesheet" href="estilo/estilo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <style>
+  <style>
        
       @media only screen and (max-width:800px){
     
@@ -22,11 +25,16 @@
       justify-content: space-around;
       align-items: center;
     }
+
+    .mainExpertise{
+      margin-left: 10px;
+      text-align: center;
+    }
                 
     #grillaHome{
       display: grid;
       grid-template-columns: 100%;
-      grid-template-rows: 70px 200px 470px 500px;
+      grid-template-rows: 70px 200px 1000px 500px;
       grid-template-areas: "header"
                            "nav"
                            "main"
@@ -36,7 +44,7 @@
    #grillaQuienesSomos{
       display: grid;
       grid-template-columns: 100%;
-      grid-template-rows: 70px 200px 1200px 500px;
+      grid-template-rows: 70px 200px 3300px 500px;
       grid-template-areas: "header"
                            "nav"
                            "main"
@@ -46,7 +54,7 @@
    #grillaExpertise{
       display: grid;
       grid-template-columns: 100%;
-      grid-template-rows: 70px 200px 1150px 500px;
+      grid-template-rows: 70px 200px 1800px 500px;
       grid-template-areas: "header"
                            "nav"
                            "main"
@@ -84,7 +92,7 @@
       align-items: center;
    }
   }
-      </style>
+</style>
     <title>LF | ABOGADOS</title>
 </head>
 <body>
@@ -112,32 +120,40 @@
       </ul>
   </nav> <!--FIN NAV-->
     </header> <!-- FIN ENCABEZADO-->
-    <main class="mainExpertise"> <!--INICIO MAIN-->
-     <h2 class="tituloExpertise"data-aos="fade-up" data-aos-delay="120">EXPERTISE</h2>
-     <p class="primerParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="primerParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="primerParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="primerParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <main><!--INICIO MAIN-->
+    <div class="mainExpertise"> 
+     <h2 class="tituloExpertise"data-aos="fade-up" data-aos-delay="120">EXPERTISE |</h2>
+     <div class="primerParrafoExpertise" data-aos="fade-up" data-aos-delay="120">
+     <p data-aos="fade-up" data-aos-delay="180">L&F ABOGADOS CUENTA CON VALIOSA EXPERIENCIA</p>
+     <p data-aos="fade-up" data-aos-delay="100">EN LAS SIGUIENTES RAMAS DEL DERECHO :</p>
+    </div>
      <br>
+     <div class="segundoParrafoExpertise" data-aos="fade-right" data-aos-delay="180">
+     <h2 data-aos="fade-right" data-aos-delay="120">DERECHO A LA SALUD</h2>
+     <p data-aos="fade-right" data-aos-delay="120">Tu integridad física y psiquica está garantizada por la CN</p>
+     <p data-aos="fade-right" data-aos-delay="120">Por esto, ante cualquier inconveniente con tu Obra Social o</p>
+     <p data-aos="fade-right" data-aos-delay="120">Medicina Prepaga, así como con cualquier institución médica</p>
+     <p data-aos="fade-right" data-aos-delay="120">Como hospitales, clinicas o doctores particulares,</p>
+     <p data-aos="fade-right" data-aos-delay="120">Tenés el respaldo para iniciar tu reclamo.</p>
+     </div>
      <br>
-     <h4 class="subtituloExpertise1"data-aos="fade-up" data-aos-delay="120">DERECHO A LA SALUD</h4>
-     <p class="segundoParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="segundoParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="segundoParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="segundoParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="segundoParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <img src="media/fotoAbogado.jpg" alt="FotoDerechoSalud1" id="imagenExpertise1"data-aos="fade-up" data-aos-delay="120">
+     <div class="tercerParrafoExpertise" data-aos="fade-left" data-aos-delay="120">
+     <h2 data-aos="fade-left" data-aos-delay="120">DERECHO CIVIL</h2>
+     <p data-aos="fade-left" data-aos-delay="120">El Derecho Civil regula tus derechos individuales desde</p>
+     <p data-aos="fade-left" data-aos-delay="120">El nacimiento hasta la muerte. </p>
+     <p data-aos="fade-left" data-aos-delay="120">Divorcios, Sucesiones testamentarias o sin testamento,</p>
+     <p data-aos="fade-left" data-aos-delay="120">Daños y Perjuicios, Alimentos y Regimenes de Visitas</p>
+     <p data-aos="fade-left" data-aos-delay="120">Entre otras cosas, requieren de asesoramiento legal.</p>
+    </div>
      <br>
-     <br>
-     <h4 class="subtituloExpertise2"data-aos="fade-up" data-aos-delay="120">DERECHO CIVIL</h4>
-     <p class="tercerParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="tercerParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="tercerParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="tercerParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <p class="tercerParrafoExpertise"data-aos="fade-up" data-aos-delay="120">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <img src="media/fotoAbogado.jpg" alt="FotoDerechoSalud1" style="float: right;" id="imagenExpertise1"data-aos="fade-up" data-aos-delay="120">
-     <br>
-     <br>
+     <div class="cuartoParrafoExpertise" data-aos="fade-right" data-aos-delay="120">
+      <h2 data-aos="fade-right" data-aos-delay="120">DERECHO COMERCIAL</h2>
+      <p data-aos="fade-right" data-aos-delay="120">El mundo de los negocios y la actividad mercantil</p>
+      <p data-aos="fade-right" data-aos-delay="120">Tiene su amparo legal en el Derecho Comercial.</p>
+      <p data-aos="fade-right" data-aos-delay="120">Así, cualquier conflicto entre el cliente y el comercio,</p>
+      <p data-aos="fade-right" data-aos-delay="120">Sea este a través de un local físico u Online,</p>
+      <p data-aos="fade-right" data-aos-delay="120">requiere del asesoramieto especializado en las normas comerciales.</p>
+     </div>
     </main>  <!--FIN MAIN-->
     <footer class="footerHome" data-aos="fade-up" data-aos-delay="120"> <!--INICIO PIE-->
       <ul class="menuFooter">

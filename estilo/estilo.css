@@ -1,0 +1,443 @@
+#grillaHome {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 70px 60px 1200px 130px;
+      grid-template-rows: 70px 60px 1200px 130px;
+      grid-template-areas: "header" "nav" "main" "footer";
+}
+
+#grillaHome .tituloHome {
+  color: #182239;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+  padding: 120px;
+}
+
+#grillaHome .mainHome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#grillaHome .footerHome {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 30%;
+      grid-template-rows: 30%;
+}
+
+#grillaQuienesSomos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 70px 60px 3300px 140px;
+      grid-template-rows: 70px 60px 3300px 140px;
+      grid-template-areas: "header" "nav" "main" "footer";
+}
+
+#grillaQuienesSomos .mainQuienesSomos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+#grillaQuienesSomos .tituloQuienesSomos {
+  color: #182239;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  padding: 120px;
+}
+
+#grillaQuienesSomos .abogado1 {
+  background-color: #182239;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  padding: 120px;
+  margin: 50px;
+}
+
+#grillaQuienesSomos .fotoAbogado1 {
+  padding: 60px;
+}
+
+#grillaQuienesSomos .abogado2 {
+  background-color: #182239;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  padding: 120px;
+  margin: 50px;
+}
+
+#grillaQuienesSomos .fotoAbogado2 {
+  padding: 120px;
+}
+
+#grillaExpertise {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 70px 60px 1900px 140px;
+      grid-template-rows: 70px 60px 1900px 140px;
+      grid-template-areas: "header" "nav" "main" "footer";
+}
+
+#grillaExpertise .tituloExpertise {
+  color: #182239;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  padding: 120px;
+}
+
+#grillaExpertise .primerParrafoExpertise {
+  color: #182239;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  padding-bottom: 120px;
+}
+
+#grillaExpertise .segundoParrafoExpertise {
+  background-color: #182239;
+  width: 500px;
+  height: 190px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 70px;
+  margin-left: 300px;
+  text-align: center;
+}
+
+#grillaExpertise .tercerParrafoExpertise {
+  background-color: grey;
+  width: 500px;
+  height: 190px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 70px;
+  margin: 20px;
+  text-align: center;
+}
+
+#grillaExpertise .cuartoParrafoExpertise {
+  background-color: #182239;
+  width: 500px;
+  height: 190px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 70px;
+  margin-left: 500px;
+  text-align: center;
+}
+
+#grillaExpertise .subtituloExpertise1 {
+  color: #182239;
+  text-align: justify;
+}
+
+#grillaExpertise .subtituloExpertise2 {
+  color: #182239;
+  text-align: right;
+}
+
+#grillaPpaa {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 70px 60px 2000px 140px;
+      grid-template-rows: 70px 60px 2000px 140px;
+      grid-template-areas: "header" "nav" "main" "footer";
+}
+
+#grillaPpaa .tituloPpaaLegales {
+  color: #182239;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  padding: 120px;
+}
+
+#grillaPpaa .parrafoPrimerosAuxiliosLegales {
+  color: #182239;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 40px;
+}
+
+#grillaPpaa .subtitulo1PrimerosAuxiliosLegales {
+  background-color: #182239;
+  width: 530px;
+  height: 290px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+  padding: 90px;
+  margin: 20px;
+}
+
+#grillaPpaa .subtitulo2PrimerosAuxiliosLegales {
+  background-color: grey;
+  width: 500px;
+  height: 150px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+  padding: 90px;
+  margin-left: 600px;
+}
+
+#grillaPpaa .subtitulo3PrimerosAuxiliosLegales {
+  background-color: #b6720c;
+  width: 300px;
+  height: 190px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+  padding: 70px;
+  margin: 20px;
+}
+
+#grillaPpaa .subtitulo3PrimerosAuxiliosLegales a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: background-color 0.7s;
+  transition: background-color 0.7s;
+}
+
+#grillaContacto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 70px 60px 1500px 140px;
+      grid-template-rows: 70px 60px 1500px 140px;
+      grid-template-areas: "header" "nav" "main" "footer";
+}
+
+#grillaContacto .tituloContacto {
+  color: #182239;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  padding: 120px;
+}
+
+#grillaContacto .formularioContacto {
+  background-color: #182239;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  width: 600px;
+  height: 750px;
+  padding: 120px;
+  margin-left: 65px;
+}
+
+#grillaContacto input {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+#grillaContacto input:focus {
+  width: 200px;
+  font-size: 24px;
+}
+
+#grillaContacto .desplegableContacto {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #182239;
+  font-weight: 800;
+}
+
+#grillaContacto .botonesFormularioContacto {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #182239;
+  font-weight: 800;
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+}
+
+nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav;
+  -webkit-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  -webkit-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.menuHeader {
+  color: #182239;
+  font-family: 'Benne', serif;
+  text-decoration: none;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menuHeader p {
+  color: #2c344c;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menuHeader a:hover {
+  color: black;
+  opacity: 0.4;
+}
+
+.menuHeader a {
+  color: #182239;
+  text-decoration: none;
+  -webkit-transition: background-color 0.7s;
+  transition: background-color 0.7s;
+}
+
+.menuFooter {
+  color: #182239;
+  font-family: 'Benne', serif;
+  text-decoration: none;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menuFooter a:hover {
+  color: black;
+  opacity: 0.4;
+}
+
+.menuFooter a {
+  color: #182239;
+  text-decoration: none;
+  -webkit-transition: background-color 0.7s;
+  transition: background-color 0.7s;
+}
+
+.logosRedesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding-right: 45px;
+}
+
+.logosRedesSociales a:hover {
+  color: black;
+  opacity: 0.4;
+}
+
+.error404 {
+  color: #182239;
+  text-decoration: none;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: x-large;
+}
+/*# sourceMappingURL=estilo.css.map */

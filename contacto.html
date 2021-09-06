@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="estilo/EstiloPagina.css">
+    <meta title="Estudio juridico LF ABOGADOS. Contacto">
+    <meta name="description" content="Estudio juridico LF ABOGADOS.Contacte con nosotros a través de cualquier medio para consultar su problema.">
+    <meta name="keyword" content="estudio juridico, abogado, problema legal, discapacidad, salud, obra social, prepaga, prestacion medica, amparo, carta documento">
+    <link rel="Stylesheet" href="estilo/estilo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
        
@@ -26,7 +30,7 @@
       #grillaHome{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 70px 200px 470px 500px;
+        grid-template-rows: 70px 200px 1000px 500px;
         grid-template-areas: "header"
                              "nav"
                              "main"
@@ -36,7 +40,7 @@
      #grillaQuienesSomos{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 70px 200px 1200px 500px;
+        grid-template-rows: 70px 200px 3300px 500px;
         grid-template-areas: "header"
                              "nav"
                              "main"
@@ -66,7 +70,7 @@
      #grillaContacto{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 70px 200px 700px 500px;
+        grid-template-rows: 70px 200px 1500px 500px;
         grid-template-areas: "header"
                              "nav"
                              "main"
@@ -113,8 +117,8 @@
     </nav> <!--FIN NAV-->
  </header> <!-- FIN ENCABEZADO-->
  <main class="mainContacto"> <!--INICIO MAIN-->
-     <h2 class="tituloContacto" data-aos="fade-up" data-aos-delay="120"> CONTACTO </h2>
-     <form class="formularioContacto" data-aos="fade-up" data-aos-delay="120">
+     <h2 class="tituloContacto" data-aos="fade-up" data-aos-delay="120"> CONTACTO |</h2>
+     <form class="formularioContacto" data-aos="fade-up" data-aos-delay="250">
         <form action="">
         <form method="">
             <label for="nombre">Nombre:</label>
@@ -134,16 +138,16 @@
             <input type="text" id="telefono" name="telefono">
             <br>
         <h4>¿Cómo desea que nos contactemos?</h4>
-        <select name="contacto">
+        <select class="desplegableContacto" name="contacto">
             <option value="tel">Llamada telefónica</option>
             <option value="wts">WhatsApp</option>
             <option value="email">Email</option>   
         </select>
         <h4>Realice su consulta</h4>
-            <textarea class="texareaContacto" rows="15" cols="55"> </textarea> 
+            <textarea class="texareaContacto" rows="15" cols="54"> </textarea> 
             <br>
-            <input type="reset" value="Limpiar Formulario">
-            <input type="submit" value="Enviar Formulario"> 
+            <input class="botonesFormularioContacto" type="reset" value="Limpiar Formulario">
+            <input class="botonesFormularioContacto" type="submit" value="Enviar Formulario"> 
             <br>
             <br>
             <input type="checkbox" id="consentimiento" name="consentimiento">

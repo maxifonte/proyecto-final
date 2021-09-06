@@ -1,7 +1,7 @@
 #grillaHome{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 70px 70px 700px 130px;
+    grid-template-rows: 70px 70px 1200px 130px;
     grid-template-areas: "header"
                          "nav"
                          "main"
@@ -11,7 +11,7 @@
 #grillaQuienesSomos{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 70px 70px 1200px 130px;
+    grid-template-rows: 70px 70px 1300px 130px;
     grid-template-areas: "header"
                          "nav"
                          "main"
@@ -21,7 +21,7 @@
 #grillaExpertise{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 70px 70px 1150px 130px;
+    grid-template-rows: 70px 70px 1250px 130px;
     grid-template-areas: "header"
                          "nav"
                          "main"
@@ -31,7 +31,7 @@
 #grillaPpaa{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 70px 70px 1250px 130px;
+    grid-template-rows: 70px 70px 1350px 130px;
     grid-template-areas: "header"
                          "nav"
                          "main"
@@ -41,7 +41,7 @@
 #grillaContacto{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 70px 70px 700px 130px;
+    grid-template-rows: 70px 70px 850px 130px;
     grid-template-areas: "header"
                          "nav"
                          "main"
@@ -78,15 +78,17 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
 } 
 
 p{
     color: rgb(44,52,76);
+    font-family: 'Montserrat', sans-serif;
 }
 
 a:hover{
     color: rgb(0, 0, 0);
-    
+    opacity: 0.9;
 }
 
 a{
@@ -95,8 +97,22 @@ a{
     transition: background-color.7s;
 }
 
-.tituloHome {
+.tituloHome{
     color: rgb(24,34,57);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    padding: 120px;
+}
+
+.tituloHome2{
+    color: rgb(24,34,57);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 500px;
 }
 
 .mainHome{
@@ -104,10 +120,11 @@ a{
     flex-direction: column;
     height: 100%;
     align-items: flex-start;
-    justify-content:right;
-    padding-top: 50px;
-    padding-left: 10px;
+    justify-content:end;
+    font-family: 'Montserrat', sans-serif;
+    
 }
+
 
 .mainQuienesSomos{
     display: flex;
@@ -117,6 +134,7 @@ a{
     justify-content:right;
     padding-top: 50px;
     padding-left: 10px;
+    
 }
 
 .mainExpertise{
@@ -128,12 +146,14 @@ a{
 .mainPpaa{
     padding-top: 50px;
     padding-left: 10px;
+
 }
 
 .mainContacto{
     padding-top: 50px;
     padding-left: 10px;
 }
+
 
 .tituloQuienesSomos {
     color: rgb(24,34,57);
@@ -238,7 +258,7 @@ input:focus{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 30%;
-
+   
 }
 
 .menuFooter{
@@ -250,11 +270,11 @@ input:focus{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
+    
 }
 
 .logosRedesSociales{
     display: flex;
     flex-direction: row-reverse;
-    padding-right: 100px;
+    padding-right: 45px;
 }
